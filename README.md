@@ -43,8 +43,7 @@ Oct 23, 2013
 
 
 
-1. Tips for recording and processing videos:
-============================================
+## Tips for recording and processing videos
 
 At capture time:
 
@@ -74,8 +73,7 @@ When processing:
 
 
 
-2. Linear Color and Motion Magnification (SIGGRAPH 2012)
-================================================================
+## Linear Color and Motion Magnification (SIGGRAPH 2012)
 
 The code includes the following combination of spatial and temporal filters,
 which we used to generate all the results in the paper:
@@ -118,8 +116,7 @@ experiment on your own!
 
 
 
-3. Phase-Based Motion Processing (SIGGRAPH 2013)
-========================================================
+## Phase-Based Motion Processing (SIGGRAPH 2013)
 
 The code includes functions to motion magnify videos using ideal bandpass
 filters in the frequency domain and arbitrary time domain LTI filters. It also

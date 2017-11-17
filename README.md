@@ -97,8 +97,7 @@ To reproduce the results shown in the paper:
 1) Download the source videos from the project web page into a directory `data`
    inside the directory containing this code. The `download_data.sh` script will
 2) Start up MATLAB and change directory to the location of this code.
-3) (Optional) Run `make.m` to build pyramid toolbox libraries (this is REQUIRED
-   if using macOS and MATLAB newer than 2011b).
+3) Run `make.m` to build pyramid toolbox libraries.
 4) Run `setPath.m`.
 5) Run `reproduceResultSiggraph12.m` to reproduce all the results in the paper.
 

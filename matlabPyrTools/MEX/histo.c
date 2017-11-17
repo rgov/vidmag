@@ -7,6 +7,7 @@
 #define V4_COMPAT
 #include <mex.h>
 
+#include <stdio.h>  /* printf */
 #include <stddef.h>  /* NULL */
 #include <math.h>  /* ceil */
 

@@ -8,6 +8,8 @@ RES = corrDn(IM, FILT, EDGES, STEP, START, STOP);
 #define V4_COMPAT
 #include <mex.h>
 
+#include <string.h> /* strcmp */
+
 #include "convolve.h"
 
 #define notDblMtx(it) (!mxIsNumeric(it) || !mxIsDouble(it) || mxIsSparse(it) || mxIsComplex(it))

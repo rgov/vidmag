@@ -6,7 +6,6 @@ RES = upConv(IM, FILT, EDGES, STEP, START, STOP, RES);
 */
 
 #define V4_COMPAT
-#include <matrix.h>  /* Matlab matrices */
 #include <mex.h>
 
 #include "convolve.h"

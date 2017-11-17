@@ -6,7 +6,6 @@ RES = corrDn(IM, FILT, EDGES, STEP, START, STOP);
 */
 
 #define V4_COMPAT
-#include <matrix.h>  /* Matlab matrices */
 #include <mex.h>
 
 #include "convolve.h"

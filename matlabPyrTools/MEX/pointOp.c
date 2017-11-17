@@ -5,7 +5,6 @@ RES = pointOp(IM, LUT, ORIGIN, INCREMENT, WARNINGS)
 */
 
 #define V4_COMPAT
-#include <matrix.h>  /* Matlab matrices */
 #include <mex.h>
 
 #include <stddef.h>  /* NULL */

@@ -1,0 +1,9 @@
+2013-10-21: Version 2.0, Neal Wadhwa
+* Added phase-based method
+
+2013-03-02: Version 1.1, Michael Rubinstein
+* Added make.m
+* Updated README
+
+2012-09-16: Version 1.0, Michael Rubinstein
+* Initial release (linear method)

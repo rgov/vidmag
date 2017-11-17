@@ -85,7 +85,7 @@ which we used to generate all the results in the paper:
 | Laplacian pyramid | Second-order IIR bandpass |
 | Gaussian pyramid  | Ideal bandpass            |
 
-The code was written in MATLAB R2011b, and tested on Windows 7, Mac OSX and
+The code was written in MATLAB R2011b, and tested on Windows 7, macOS, and
 Linux. It uses the pyramid toolbox by Eero Simoncelli (`matlabPyrTools`),
 available at http://www.cns.nyu.edu/~eero/software.php. For convenience, we
 have included a copy of version 1.4 (updated Dec. 2009) of their toolbox here.
@@ -95,7 +95,7 @@ remove this dependency in the future.
 To reproduce the results shown in the paper:
 
 1) Download the source videos from the project web page into a directory `data`
-   inside the directory containing this code.
+   inside the directory containing this code. The `download_data.sh` script will
 2) Start up MATLAB and change directory to the location of this code.
 3) (Optional) Run `make.m` to build pyramid toolbox libraries (this is REQUIRED
    if using macOS and MATLAB newer than 2011b).
@@ -132,11 +132,15 @@ includes codes to attenuate motions.
 
 To reproduce the results shown in the paper:
 
-1) Download the source videos from the project web page into the directory
-   `data` inside the directory containing the code.
+1) Download the [source videos][videos] (1.3GB) from the
+  [project web page][phase] into the directory `data` inside the directory
+  containing the code. The `download_data.sh` script does this for you.
 2) Start MATLAB and change directory to location of this code.
 3) Run `setPath.m` to add directories to MATLAB's path.
 4) Run `reproduceResultsSiggraph13.m` to reproduce all results in the paper. 
+
+[videos]: http://people.csail.mit.edu/nwadhwa/phase-video/video/Source%20and%20Result%20Videos.zip
+[phase]: http://people.csail.mit.edu/nwadhwa/phase-video/
 
 Notes: This script takes four hours to run on a laptop with a quad core
 processor and 16GB of RAM. To speed up running time, uncomment line 11 in

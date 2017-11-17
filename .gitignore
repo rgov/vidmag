@@ -1,3 +1,5 @@
 .DS_Store
 *.o
 *.mex
+videos.zip
+data/
